@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+.herosection, .footer, .headersection {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.herotitle {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.herotext, .links, .ctablock {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+button, .ctablock {
+    background-color: #3882F6;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.headersection {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.links {
+    gap: 24px;
+}
+
+.herosection {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 400px;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    gap: 36px;
+}
+
+.lefthero {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.signup {
+    color: #E5E7EB;
+    font-weight: 800;
+    border: #3882F6;
+    border-radius: 6px;
+    width: 100px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.righthero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    flex: 1;
+}
+
+.infosection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.infoblockcontainer {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+}
+
+.infoblock {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.infoimage {
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 16px;
+    height: 150px;
+}
+
+.infosubtext {
+    text-align: center;
+}
+
+.infoempty {
+    height: 36px;
+}
+
+.quoted {
+    font-weight: 800;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.quoteempty {
+    height: 24px;
+}
+
+.quotesection {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteblock {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 8px;
+}
+
+.ctasection {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctablock {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    padding: 42px 120px;
+    border-radius: 8px;
+}
+
+.ctaleft {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cta {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.ctablock .signup{
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+
+.ctatext {
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
